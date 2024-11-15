@@ -1,3 +1,15 @@
+基于https://github.com/LibraHp/GetQzonehistory，新增了addtools文件夹，用于数据分析
+analysis.py为数据分析主程序，主要基于时间年月日进行数据总体的分析，例如2024、2023、2022年发布了多少条说说，并用图表呈现
+statistical_analysis.py为统计分析，利用概率论与数理统计的知识进行简单的数据分析
+excel_to_csv.py为excel转csv。将主体代码生成的excel转为csv，便于便于统计分析
+merge_csv.py为合并csv.主要用于合成不同qq号的数据
+总体上将把数据基于时间进行了可视化，使数据更直观
+
+以下为原始的readme
+
+------------------------------------------------------------------------------------------------
+
+
 # GetQzonehistory(获取qq发布的历史说说)
 
 已经打包好的单文件可以直接执行，在release页面。
